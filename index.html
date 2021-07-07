@@ -98,7 +98,7 @@
  }
 </style>
 <script>
-function setup() {
+    function setup() {
     canvas = createCanvas(300, 300);
     canvas.center();
     video = createCapture(VIDEO);
@@ -124,5 +124,5 @@ function gotResult(error, results) {
         document.getElementById("result_object_accuracy").innerHTML = results[0].confidence.toFixed(3);
     }
 }
-    </script>
+</script>
 </html>
